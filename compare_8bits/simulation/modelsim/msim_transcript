@@ -1,0 +1,49 @@
+# Reading D:/altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do compare_8bits_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/fpga/compare_8bits {D:/fpga/compare_8bits/compare_8bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module compare_8bits
+# 
+# Top level modules:
+# 	compare_8bits
+# 
+# vlog -vlog01compat -work work +incdir+D:/fpga/compare_8bits {D:/fpga/compare_8bits/comp_8bits_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comp_8bits_tb
+# 
+# Top level modules:
+# 	comp_8bits_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  comp_8bits_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps comp_8bits_tb 
+# Loading work.comp_8bits_tb
+# Loading work.compare_8bits
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  
+# -------------------------------------------------------
+# 
+# --------------------- S U M M A R Y -------------------
+# 
+# Congratulations! The results are all PASSED!!
+# 
+# -------------------------------------------------------
+# 
+# Break in Module comp_8bits_tb at D:/fpga/compare_8bits/comp_8bits_tb.v line 58
+# Simulation Breakpoint: Break in Module comp_8bits_tb at D:/fpga/compare_8bits/comp_8bits_tb.v line 58
+# MACRO ./compare_8bits_run_msim_rtl_verilog.do PAUSED at line 17

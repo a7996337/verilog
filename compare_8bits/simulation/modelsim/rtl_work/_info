@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\fpga\compare_8bits\simulation\modelsim
+vcomp_8bits_tb
+!i10b 1
+!s100 I_oeZjhWie7<Ag<mF8Jz`3
+IYA:4kC^C7XI:QO?Z?Hd][2
+VMXnnN4l3GYDai_k8c0XRG1
+Z1 dD:\fpga\compare_8bits\simulation\modelsim
+w1665716138
+8D:/fpga/compare_8bits/comp_8bits_tb.v
+FD:/fpga/compare_8bits/comp_8bits_tb.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1694185306.724000
+!s107 D:/fpga/compare_8bits/comp_8bits_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga/compare_8bits|D:/fpga/compare_8bits/comp_8bits_tb.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/fpga/compare_8bits -O0
+vcompare_8bits
+IjNR9SE3]TD3hITVODe:3A0
+VgA>E1^En>J8zRKTAY88Kn0
+R1
+w1694185196
+8D:/fpga/compare_8bits/compare_8bits.v
+FD:/fpga/compare_8bits/compare_8bits.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 [[F]F>F21OKYnSE:Xmo`R1
+!s85 0
+!s108 1694185306.449000
+!s107 D:/fpga/compare_8bits/compare_8bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga/compare_8bits|D:/fpga/compare_8bits/compare_8bits.v|
+!s101 -O0
+R4
